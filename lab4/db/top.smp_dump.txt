@@ -1,0 +1,11 @@
+
+State Machine - |top|control:u18|state
+Name state.state_end state.state_plus1 state.state_add state.state_subtract state.state_compare state.state_read2 state.state_read1 state.state_reset 
+state.state_reset 0 0 0 0 0 0 0 0 
+state.state_read1 0 0 0 0 0 0 1 1 
+state.state_read2 0 0 0 0 0 1 0 1 
+state.state_compare 0 0 0 0 1 0 0 1 
+state.state_subtract 0 0 0 1 0 0 0 1 
+state.state_add 0 0 1 0 0 0 0 1 
+state.state_plus1 0 1 0 0 0 0 0 1 
+state.state_end 1 0 0 0 0 0 0 1 
